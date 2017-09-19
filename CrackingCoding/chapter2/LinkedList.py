@@ -1,10 +1,10 @@
 import random
 
 class Node(object):
-    def __init__(self, value, nextNode=None, prev=None):
+    def __init__(self, value, next_node=None, prev_node=None):
         self.value = value
-        self.next = nextNode
-        self.prev = prev
+        self.next = next_node
+        self.prev = prev_node
 
     def __str__(self):
         return str(self.value)
@@ -20,6 +20,10 @@ class LinkedList(object):
             yield current
             current = current.next
 
+    def __str__(self):
+        values = [str(x) for x in self]
+        return ' -> '.join(values)
+
     def __len__(self):
         result = 0
         node = self.head
@@ -27,9 +31,6 @@ class LinkedList(object):
             result += 1
             node = node.next
         return result
-    def __str__(self):
-        values = [str(x) for x in self]
-        return ' -> '.join(values)
 
     def add(self, value):
         if self.head is None:
@@ -46,9 +47,18 @@ class LinkedList(object):
             self.head = Node(value, self.head)
         return self.head
 
-    def generate(self, num, minimum, maximum):
-        self.head = None
-        self.tail = None
-        for i in range(num):
-            self.add(random.randint(minimum, maximum))
+    def generate(self, number, min_value, max_value):
+        self.head = self.tail = None
+        for i in range(number):
+            self.add(random.randint(min_value,max_value))
         return self
+
+class DoubleLinkedList(LinkedList):
+    def add(self, value):
+        if self.head is None:
+            self.head = self.tail = Node(value)
+        else:
+            self.tail.next = Node(value, None, self.tail)
+            self.tail = self.tail.next
+        return self.tail
+
