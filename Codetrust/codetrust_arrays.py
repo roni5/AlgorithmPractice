@@ -94,7 +94,46 @@ def findlowhigh(arr, key):
 def findlow(arr, key):
     low = 0
     high = len(arr) - 1
-    mid = (low + high) // 2
 
     while low <= high:
+        mid = (low + high) // 2
+        if arr[mid] < key:
+            low = mid + 1
+        else:
+            high = mid - 1
+        mid = (low + high) // 2
 
+    if arr[low] == key:
+        return low
+
+    return -1
+
+def findhigh(arr,key):
+    low = 0
+    high = len(arr) - 1
+
+
+    while low <= high:
+        mid = (low + high) // 2
+        if arr[mid] <= key:
+            low = mid + 1
+        else:
+            high = mid - 1
+        mid = (low + high) // 2
+
+    if arr[high] == key:
+        return high
+
+    return -1
+arr2 = [1, 2, 3, 4, 4, 4, 4, 4,  5, 6, 7, 7]
+print("--low and high --", findlowhigh(arr2, 4))
+
+# Find smallest common value in sorted arrays
+
+def findSmallestCommon(arr1, arr2, arr3):
+    i = 0
+    j = 0
+    k = 0
+
+    while i < len(arr1) and j < len(arr2) and k < len(arr3):
+        
