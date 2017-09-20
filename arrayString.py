@@ -27,7 +27,7 @@ def is_permuation(str1, str2):
         except:
             return False
 
-    for key, value in temp.iteritems():
+    for key, value in temp.items():
         if value != 0:
             return False
 
@@ -45,7 +45,7 @@ def urlify(str):
 
 print('--urlify--', urlify("Mr John Smith"))
 
-#Is is a permutation of palindrome?
+#Is it a permutation of palindrome?
 def is_permu_palindrome(user_str):
     input_str = user_str.lower().replace(" ","")
     frequency_table = get_frequnecy_dict(input_str)
@@ -68,7 +68,7 @@ def check_odd_char(frequency_table, user_str):
         return True
     else:  # if odd length, there should be only one odd char
         count = 0
-        for key, value in frequency_table.iteritems():
+        for key, value in frequency_table.items():
             if value % 2 != 0:
                 count += 1
             if count > 1:
@@ -91,7 +91,7 @@ def one_away(str1, str2):
             except:
                 str1_table[letter] = -1
         count = 0
-        for key, value in str1_table.iteritems():
+        for key, value in str1_table.items():
             if value >= 1:
                 count += 1
             if count > 1:
