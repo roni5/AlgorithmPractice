@@ -43,3 +43,28 @@ def is_palindrome(s):
 
 
 print(is_palindrome("Never odd or even!!!!!!"))
+
+# Remove duplicate consecutive
+
+def removeDup(str):
+    last_char = str[0]
+    new_str = last_char
+    for i in range(1, len(str)):
+        if str[i] != last_char:
+            new_str += str[i]
+            last_char = str[i]
+    return new_str
+
+print("removedup: ", removeDup("abbaaaaaaaaaabcddbabcdeedebcaa"))
+
+# Remove duplicate all together
+
+def removeDupAll(str):
+    seen = []
+    for letter in str:
+        if letter not in seen:
+            seen.append(letter)
+            print(seen)
+    return "".join(seen)
+
+print("removedupAll: ", removeDupAll("abbaaaaaaaaaabcddbabcdeedebcaa"))

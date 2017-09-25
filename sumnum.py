@@ -17,7 +17,7 @@ def sumToOne(num):
     return temp
 
 
-print(sumToOne(9))
+print(sumToOne(900293))
 
 
 def binary_search(item_list, item):
@@ -231,4 +231,4 @@ def lengthof(s):
             length = 1
     return max(cache)
 
-print(lengthof("abcabcbb"))
+print(lengthof("abcdefabczzzbb"))

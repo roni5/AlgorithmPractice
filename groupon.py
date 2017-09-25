@@ -92,3 +92,16 @@ def get_permutations(string):
             permutations.add(permutation)
 
     return permutations
+
+# Remove duplicates in array
+def remove_Dup_Array(arr):
+    start = 0
+    seen = [arr[0]]
+    for i in range(1, len(arr)):
+        if arr[i] not in seen:
+            seen.append(arr[i])
+    return seen
+
+dup_arr = [1,1,1,2,3,4,4,5,5,6,7]
+
+print("--Remove dup array--", remove_Dup_Array(dup_arr))

@@ -81,7 +81,7 @@ def reverse_array(arr, begin, end):
         end -= 1
     return arr
 
-print("---rotate array by -2**", rotate_array(arr, -2))
+print("---rotate array by -2**", rotate_array(arr, -9))
 print("---rotate array by 4**", rotate_array(arr, 4))
 
 # Find low and high index of occurence of a key in array
@@ -136,4 +136,16 @@ def findSmallestCommon(arr1, arr2, arr3):
     k = 0
 
     while i < len(arr1) and j < len(arr2) and k < len(arr3):
-        
+
+        if arr1[i] == arr2[j] and arr2[j] == arr3[k]:
+            return arr[i]
+
+        if arr1[i] < arr2[j] and arr1[i] < arr3[k]:
+            i += 1
+        elif arr2[j] < arr1[i] and arr2[j] < arr3[k]:
+            j += 1
+        elif arr3[k] < arr2[j] and arr3[k] < arr1[i]:
+            k += 1
+
+    return -1
+
