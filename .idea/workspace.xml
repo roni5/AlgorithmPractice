@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e817c3a0-df59-4d1e-bec2-585c8e2c0a69" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrackingCoding/chapter1/URLify.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrackingCoding/chapter1/isPermuOfPalindrome.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrackingCoding/chapter1/isPermutation.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrackingCoding/chapter1/isUnique.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrackingCoding/chapter1/oneAway.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/isPalindrome.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/validParenthesis.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrackingCoding/chapter1/stringCompression.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CrackingCoding/chapter1/oneAway.py" afterPath="$PROJECT_DIR$/CrackingCoding/chapter1/oneAway.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,6 +28,7 @@
     <SUITE FILE_PATH="coverage/Algorithm_Practice$codetrust.coverage" NAME="codetrust Coverage Results" MODIFIED="1506115231955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Algorithm_Practice$moveZeroes.coverage" NAME="moveZeroes Coverage Results" MODIFIED="1506298251752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/Algorithm_Practice$udemy.coverage" NAME="udemy Coverage Results" MODIFIED="1506296379921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Algorithm_Practice$stringCompression.coverage" NAME="stringCompression Coverage Results" MODIFIED="1506470122340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CrackingCoding/chapter1" />
     <SUITE FILE_PATH="coverage/Algorithm_Practice$linkedList.coverage" NAME="linkedList Coverage Results" MODIFIED="1504046939109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Algorithm_Practice$1_Remove_Dups.coverage" NAME="1_Remove_Dups Coverage Results" MODIFIED="1504069349092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CtCI-6th-Edition-Python/Chapter2" />
     <SUITE FILE_PATH="coverage/Algorithm_Practice$singleNumber.coverage" NAME="singleNumber Coverage Results" MODIFIED="1506296388338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
@@ -40,6 +36,7 @@
     <SUITE FILE_PATH="coverage/Algorithm_Practice$isPermuOfPalindrome.coverage" NAME="isPermuOfPalindrome Coverage Results" MODIFIED="1506395104779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CrackingCoding/chapter1" />
     <SUITE FILE_PATH="coverage/Algorithm_Practice$sumnum.coverage" NAME="sumnum Coverage Results" MODIFIED="1506207665487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled$parisum.coverage" NAME="parisum Coverage Results" MODIFIED="1500940897548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Algorithm_Practice$oneAway.coverage" NAME="oneAway Coverage Results" MODIFIED="1506469772958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CrackingCoding/chapter1" />
     <SUITE FILE_PATH="coverage/Algorithm_Practice$2_Return_Kth_To_Last.coverage" NAME="2_Return_Kth_To_Last Coverage Results" MODIFIED="1504210585898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CtCI-6th-Edition-Python/Chapter2" />
     <SUITE FILE_PATH="coverage/Algorithm_Practice$codetrust_linkedlist.coverage" NAME="codetrust_linkedlist Coverage Results" MODIFIED="1505936049241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Codetrust" />
     <SUITE FILE_PATH="coverage/untitled$Unittest_TestPair_test.coverage" NAME="Unittest TestPair.test Coverage Results" MODIFIED="1500941420709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -81,11 +78,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="oneAway.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="oneAway.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CrackingCoding/chapter1/oneAway.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="532">
+              <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stringCompression.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CrackingCoding/chapter1/stringCompression.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="URLify.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CrackingCoding/chapter1/URLify.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -160,6 +177,7 @@
         <option value="$PROJECT_DIR$/CtCI-6th-Edition-Python/.gitignore" />
         <option value="$PROJECT_DIR$/CrackingCoding/chapter1/isPermuOfPalindrome.py" />
         <option value="$PROJECT_DIR$/CrackingCoding/chapter1/oneAway.py" />
+        <option value="$PROJECT_DIR$/CrackingCoding/chapter1/stringCompression.py" />
       </list>
     </option>
   </component>
@@ -229,6 +247,19 @@
               <item name="Algorithm Practice" type="462c0819:PsiDirectoryNode" />
               <item name="CtCI-6th-Edition-Python" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Algorithm Practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm Practice" type="462c0819:PsiDirectoryNode" />
+              <item name="CtCI-6th-Edition-Python" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm Practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm Practice" type="462c0819:PsiDirectoryNode" />
+              <item name="CtCI-6th-Edition-Python" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter1" type="462c0819:PsiDirectoryNode" />
+              <item name="6_String Compression" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -263,7 +294,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.isPermuOfPalindrome">
+  <component name="RunManager" selected="Python.stringCompression">
     <configuration name="URLify" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -546,7 +577,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="isUnique" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="oneAway" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -559,44 +590,44 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="untitled" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CrackingCoding/chapter1/isUnique.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CrackingCoding/chapter1/oneAway.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="moveZeroes" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="stringCompression" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CrackingCoding/chapter1" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="untitled" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/moveZeroes.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CrackingCoding/chapter1/stringCompression.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.codetrust" />
-      <item index="1" class="java.lang.String" itemvalue="Python.moveZeroes" />
-      <item index="2" class="java.lang.String" itemvalue="Python.isUnique" />
-      <item index="3" class="java.lang.String" itemvalue="Python.URLify" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in URLify.py" />
-      <item index="5" class="java.lang.String" itemvalue="Python.isPermuOfPalindrome" />
+      <item index="1" class="java.lang.String" itemvalue="Python.URLify" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in URLify.py" />
+      <item index="3" class="java.lang.String" itemvalue="Python.isPermuOfPalindrome" />
+      <item index="4" class="java.lang.String" itemvalue="Python.oneAway" />
+      <item index="5" class="java.lang.String" itemvalue="Python.stringCompression" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.isPermuOfPalindrome" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in URLify.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python.URLify" />
-        <item index="3" class="java.lang.String" itemvalue="Python.isUnique" />
-        <item index="4" class="java.lang.String" itemvalue="Python.moveZeroes" />
+        <item index="0" class="java.lang.String" itemvalue="Python.stringCompression" />
+        <item index="1" class="java.lang.String" itemvalue="Python.oneAway" />
+        <item index="2" class="java.lang.String" itemvalue="Python.isPermuOfPalindrome" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in URLify.py" />
+        <item index="4" class="java.lang.String" itemvalue="Python.URLify" />
       </list>
     </recent_temporary>
   </component>
@@ -667,7 +698,14 @@
       <option name="project" value="LOCAL" />
       <updated>1506300186695</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Cracking the Coding Interview 9/25">
+      <created>1506395509463</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1506395509463</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -692,14 +730,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17032968" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17032968" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1981132" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1981132" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -745,7 +784,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="practicing algo" />
     <MESSAGE value="LeetCode 9/24" />
-    <option name="LAST_COMMIT_MESSAGE" value="LeetCode 9/24" />
+    <MESSAGE value="Cracking the Coding Interview 9/25" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cracking the Coding Interview 9/25" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -754,20 +794,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/arrayString.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1976">
-          <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linkedList.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1520">
-          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/arrayString.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1976">
@@ -1040,20 +1066,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CrackingCoding/chapter1/URLify.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CtCI-6th-Edition-Python/Chapter1/2_Check Permutation/CheckPermutation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="16" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <element signature="e#7#22#0" expanded="true" />
+            <element signature="e#7#22#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1082,10 +1100,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CrackingCoding/chapter1/isUnique.py">
+    <entry file="file://$PROJECT_DIR$/CrackingCoding/chapter1/URLify.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        <state relative-caret-position="76">
+          <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
           <folding />
         </state>
       </provider>
@@ -1106,10 +1124,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CrackingCoding/chapter1/oneAway.py">
+    <entry file="file://$PROJECT_DIR$/CrackingCoding/chapter1/isUnique.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CtCI-6th-Edition-Python/Chapter1/6_String Compression/StringCompression.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CrackingCoding/chapter1/oneAway.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CrackingCoding/chapter1/stringCompression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
