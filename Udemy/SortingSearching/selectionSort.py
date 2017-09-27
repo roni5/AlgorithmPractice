@@ -12,3 +12,4 @@ def selectionSort(arr):
     return arr
 
 print(selectionSort([10,3,100,3,4,1,9,22]))
+print(selectionSort([10,3,9,1,4,3,2,11]))
