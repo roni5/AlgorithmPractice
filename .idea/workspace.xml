@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e817c3a0-df59-4d1e-bec2-585c8e2c0a69" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrackingCoding/chapter1/stringCompression.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Udemy/SortingSearching/bubbleSort.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Udemy/SortingSearching/selectionSort.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CrackingCoding/chapter1/oneAway.py" afterPath="$PROJECT_DIR$/CrackingCoding/chapter1/oneAway.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/moveZeroes.py" afterPath="$PROJECT_DIR$/LeetCode/moveZeroes.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,7 +27,9 @@
     <SUITE FILE_PATH="coverage/Algorithm_Practice$LinkedList.coverage" NAME="LinkedList Coverage Results" MODIFIED="1504209766383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CrackingCoding/chapter2" />
     <SUITE FILE_PATH="coverage/Algorithm_Practice$URLify.coverage" NAME="URLify Coverage Results" MODIFIED="1506393519805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CrackingCoding/chapter1" />
     <SUITE FILE_PATH="coverage/Algorithm_Practice$codetrust.coverage" NAME="codetrust Coverage Results" MODIFIED="1506115231955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Algorithm_Practice$moveZeroes.coverage" NAME="moveZeroes Coverage Results" MODIFIED="1506298251752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
+    <SUITE FILE_PATH="coverage/Algorithm_Practice$moveZeroes.coverage" NAME="moveZeroes Coverage Results" MODIFIED="1506470355467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
+    <SUITE FILE_PATH="coverage/Algorithm_Practice$selectionSort.coverage" NAME="selectionSort Coverage Results" MODIFIED="1506473092702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Udemy/SortingSearching" />
+    <SUITE FILE_PATH="coverage/Algorithm_Practice$bubbleSort.coverage" NAME="bubbleSort Coverage Results" MODIFIED="1506472229547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Udemy" />
     <SUITE FILE_PATH="coverage/Algorithm_Practice$udemy.coverage" NAME="udemy Coverage Results" MODIFIED="1506296379921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Algorithm_Practice$stringCompression.coverage" NAME="stringCompression Coverage Results" MODIFIED="1506470122340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CrackingCoding/chapter1" />
     <SUITE FILE_PATH="coverage/Algorithm_Practice$linkedList.coverage" NAME="linkedList Coverage Results" MODIFIED="1504046939109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -68,16 +71,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="isPermuOfPalindrome.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CrackingCoding/chapter1/isPermuOfPalindrome.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="38" lean-forward="true" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="oneAway.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CrackingCoding/chapter1/oneAway.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -88,7 +81,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stringCompression.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="stringCompression.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CrackingCoding/chapter1/stringCompression.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
@@ -98,11 +91,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="URLify.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CrackingCoding/chapter1/URLify.py">
+      <file leaf-file-name="RotateMatrix.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CtCI-6th-Edition-Python/Chapter1/7_Rotate Matrix/RotateMatrix.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="codetrust_arrays.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Codetrust/codetrust_arrays.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -113,6 +116,46 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="304">
               <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="missingelement.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Arrays/missingelement.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pairsum.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Arrays/pairsum.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bubbleSort.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Udemy/SortingSearching/bubbleSort.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="selectionSort.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Udemy/SortingSearching/selectionSort.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="43" lean-forward="true" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -166,7 +209,6 @@
         <option value="$PROJECT_DIR$/LeetCode/singleNumber.py" />
         <option value="$PROJECT_DIR$/LeetCode/removeDuplicateSortedArray.py" />
         <option value="$PROJECT_DIR$/LeetCode/two.py" />
-        <option value="$PROJECT_DIR$/LeetCode/moveZeroes.py" />
         <option value="$PROJECT_DIR$/LeetCode/twoNum.py" />
         <option value="$PROJECT_DIR$/LeetCode/twoSum.py" />
         <option value="$PROJECT_DIR$/LeetCode/validParenthesis.py" />
@@ -178,6 +220,9 @@
         <option value="$PROJECT_DIR$/CrackingCoding/chapter1/isPermuOfPalindrome.py" />
         <option value="$PROJECT_DIR$/CrackingCoding/chapter1/oneAway.py" />
         <option value="$PROJECT_DIR$/CrackingCoding/chapter1/stringCompression.py" />
+        <option value="$PROJECT_DIR$/LeetCode/moveZeroes.py" />
+        <option value="$PROJECT_DIR$/Udemy/bubbleSort.py" />
+        <option value="$PROJECT_DIR$/Udemy/SortingSearching/selectionSort.py" />
       </list>
     </option>
   </component>
@@ -223,11 +268,6 @@
             <path>
               <item name="Algorithm Practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm Practice" type="462c0819:PsiDirectoryNode" />
-              <item name="Codetrust" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm Practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm Practice" type="462c0819:PsiDirectoryNode" />
               <item name="CrackingCoding" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -250,15 +290,18 @@
             <path>
               <item name="Algorithm Practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm Practice" type="462c0819:PsiDirectoryNode" />
-              <item name="CtCI-6th-Edition-Python" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter1" type="462c0819:PsiDirectoryNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithm Practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm Practice" type="462c0819:PsiDirectoryNode" />
-              <item name="CtCI-6th-Edition-Python" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter1" type="462c0819:PsiDirectoryNode" />
-              <item name="6_String Compression" type="462c0819:PsiDirectoryNode" />
+              <item name="Udemy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm Practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm Practice" type="462c0819:PsiDirectoryNode" />
+              <item name="Udemy" type="462c0819:PsiDirectoryNode" />
+              <item name="SortingSearching" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -278,6 +321,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Udemy/SortingSearching" />
       <recent name="$PROJECT_DIR$/Codetrust" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -294,40 +338,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.stringCompression">
-    <configuration name="URLify" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CrackingCoding/chapter1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="untitled" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CrackingCoding/chapter1/URLify.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="Unittests in URLify.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CtCI-6th-Edition-Python/Chapter1/3_URLify" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="untitled" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/CtCI-6th-Edition-Python/Chapter1/3_URLify/URLify.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
+  <component name="RunManager" selected="Python.selectionSort">
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -541,6 +552,24 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
+    <configuration name="bubbleSort" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Udemy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="untitled" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Udemy/SortingSearching/bubbleSort.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="codetrust" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -559,20 +588,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="isPermuOfPalindrome" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="moveZeroes" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CrackingCoding/chapter1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="untitled" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CrackingCoding/chapter1/isPermuOfPalindrome.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/moveZeroes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -591,6 +620,24 @@
       <module name="untitled" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CrackingCoding/chapter1/oneAway.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="selectionSort" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Udemy/SortingSearching" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="untitled" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Udemy/SortingSearching/selectionSort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -615,19 +662,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.codetrust" />
-      <item index="1" class="java.lang.String" itemvalue="Python.URLify" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in URLify.py" />
-      <item index="3" class="java.lang.String" itemvalue="Python.isPermuOfPalindrome" />
-      <item index="4" class="java.lang.String" itemvalue="Python.oneAway" />
-      <item index="5" class="java.lang.String" itemvalue="Python.stringCompression" />
+      <item index="1" class="java.lang.String" itemvalue="Python.oneAway" />
+      <item index="2" class="java.lang.String" itemvalue="Python.stringCompression" />
+      <item index="3" class="java.lang.String" itemvalue="Python.moveZeroes" />
+      <item index="4" class="java.lang.String" itemvalue="Python.bubbleSort" />
+      <item index="5" class="java.lang.String" itemvalue="Python.selectionSort" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.stringCompression" />
-        <item index="1" class="java.lang.String" itemvalue="Python.oneAway" />
-        <item index="2" class="java.lang.String" itemvalue="Python.isPermuOfPalindrome" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in URLify.py" />
-        <item index="4" class="java.lang.String" itemvalue="Python.URLify" />
+        <item index="0" class="java.lang.String" itemvalue="Python.selectionSort" />
+        <item index="1" class="java.lang.String" itemvalue="Python.bubbleSort" />
+        <item index="2" class="java.lang.String" itemvalue="Python.moveZeroes" />
+        <item index="3" class="java.lang.String" itemvalue="Python.stringCompression" />
+        <item index="4" class="java.lang.String" itemvalue="Python.oneAway" />
       </list>
     </recent_temporary>
   </component>
@@ -705,7 +752,14 @@
       <option name="project" value="LOCAL" />
       <updated>1506395509463</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Cracking the Coding Interview 9/26">
+      <created>1506470147954</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1506470147954</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -738,7 +792,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1981132" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1981132" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -785,7 +839,8 @@
     <MESSAGE value="practicing algo" />
     <MESSAGE value="LeetCode 9/24" />
     <MESSAGE value="Cracking the Coding Interview 9/25" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cracking the Coding Interview 9/25" />
+    <MESSAGE value="Cracking the Coding Interview 9/26" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cracking the Coding Interview 9/26" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -794,27 +849,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/arrayString.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1976">
-          <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linkedList.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1425">
-          <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/primetest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sumnum.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="952">
@@ -950,31 +984,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Arrays/missingelement.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Arrays/pairsum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/groupon.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="869">
           <caret line="104" column="33" lean-forward="false" selection-start-line="104" selection-start-column="33" selection-end-line="104" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Codetrust/codetrust_arrays.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="869">
-          <caret line="150" column="0" lean-forward="false" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1003,13 +1016,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/moveZeroes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -1108,14 +1114,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CrackingCoding/chapter1/isPermutation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CrackingCoding/chapter1/isPermuOfPalindrome.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -1152,6 +1150,70 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/moveZeroes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CtCI-6th-Edition-Python/Chapter1/7_Rotate Matrix/RotateMatrix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Codetrust/codetrust_arrays.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CrackingCoding/chapter1/isPermutation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Arrays/missingelement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Arrays/pairsum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Udemy/SortingSearching/bubbleSort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Udemy/SortingSearching/selectionSort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="43" lean-forward="true" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
           <folding />
         </state>
       </provider>

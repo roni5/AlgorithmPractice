@@ -14,4 +14,4 @@ def moveZeroes(nums):
             zero += 1
             print(zero)
 
-moveZeroes([0,1,0,3,5,13])
+moveZeroes([1,0,0,0,3,5,13])
