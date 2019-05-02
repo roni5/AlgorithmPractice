@@ -131,3 +131,23 @@ class LinkedList:
             out.append(node.value)
             node = node.next
         return out
+    
+    def isCircular(self):
+
+        if self.head is None:
+            return False
+        
+        slow = self.head
+        fast = self.head
+
+        while fast is not None and fast.next is not None:
+            if slow == slow.next:
+                return True
+            
+            slow = slow.next
+            fast = fast.next.next
+
+            if slow == fast:
+                return True
+        
+        return False
