@@ -28,4 +28,11 @@ class Stack:
     def is_empty(self):
         return self.next_index == 0
 
-    
+    def pop(self):
+        if self.is_empty:
+            self.next_index = 0
+            return None
+
+        self.next_index -= 1
+        self.num_elements -= 1
+        return self.arr[self.next_index]
