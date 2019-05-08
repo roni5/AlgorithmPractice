@@ -5,7 +5,8 @@ def reverseString(s:List[str]) -> None:
         temp = s[idx]
         s[idx] = s[last_idx]
         s[last_idx] = temp
-
+        last_idx -= 1
+    
 
 
 
