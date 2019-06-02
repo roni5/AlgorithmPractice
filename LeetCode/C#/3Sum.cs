@@ -4,7 +4,7 @@ public class Solution {
         var answer = new List<IList<int>>();
         int target = 0;
         Array.Sort(nums);
-        
+            
         for(int i = 0; i < nums.Length - 2; i++) {
             
             if(i == 0 || nums[i] > nums[i-1]) {
