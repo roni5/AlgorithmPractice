@@ -8,7 +8,7 @@ public int LengthOfLongestSubstring(string s) {
     int answer = 0;
     var mySet = new HashSet<char>();
 
-    while(i < 0 && j < 0) {
+    while(i < length && j < length) {
         if(!mySet.Contains(s[i])){
             mySet.Add(s[i]);
             i += 1;
