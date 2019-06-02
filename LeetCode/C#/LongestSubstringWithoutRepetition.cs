@@ -15,7 +15,7 @@ public int LengthOfLongestSubstring(string s) {
             answer = Math.Max(answer, i - j);
         } else {
             mySet.Remove(s[j]);
-            j -= 1;
+            j += 1;
         }
     }
 
