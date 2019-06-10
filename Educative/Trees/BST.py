@@ -99,7 +99,7 @@ class BST:
             while replaceNode.left:
                 replaceNodeParent = replaceNode
                 replaceNode = replaceNode.left
-            
+                
             node.val = replaceNode.val
             if replaceNode.right:
                 if replaceNode.val < replaceNodeParent.val:
@@ -117,8 +117,9 @@ class BST:
 bst = BST()
 # print(bst.root.val)
 bst.insert(3)
-bst.insert(1)
-print(bst.root.val)
-print(bst.root.left.val)
-print(bst.delete(3))
-print(bst.root.val)
+bst.insert(7)
+bst.insert(100)
+bst.insert(98)
+bst.insert(101)
+
+print(bst.delete(100))
