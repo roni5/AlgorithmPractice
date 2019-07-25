@@ -1,5 +1,5 @@
 class Solution:
-    def lengthOfLongestSubstring(self, s: str) -> int:
+    def lengthOfLongestSubstring(self, s):
         
         ans = 0
         length = len(s)
@@ -17,3 +17,19 @@ class Solution:
                 j += 1
                 
         return ans
+
+    def lengthOfLongestSubstring2(self, s):
+        dict = {}
+        windowStart = 0
+        maxLen = 0
+
+        for i, letter in enumerate(s):
+
+            if letter in dict and dict[letter] >= windowStart:
+                windowStart = dict[letter] + 1
+            
+            dict[letter] = i
+            maxLen = max(maxLen, i - windowStart + 1)
+        
+        return maxLen
+

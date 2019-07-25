@@ -31,3 +31,25 @@ def longestPalindrome(self, s: str) -> str:
                     maxLength = k
 
     return s[start: start + maxLength]
+    
+class Solution(object):
+    startIdx = 0
+    maxLen = 1
+    startIdx = 0
+    def longestPalindrome(self, s):
+
+        for i in range(len(s)):
+            self.expandAroundCenter(i - 1, i + 1,s)
+            self.expandAroundCenter(i, i + 1,s)
+
+        return s[self.startIdx:self.startIdx + self.maxLen]
+    
+    
+    def expandAroundCenter(self,left, right,s):
+        while left >= 0 and right < len(s) and s[left] == s[right]:
+            currentLen = right - left + 1
+            if(currentLen > self.maxLen):
+                self.maxLen = currentLen
+                self.startIdx = left
+            left -= 1
+            right += 1
