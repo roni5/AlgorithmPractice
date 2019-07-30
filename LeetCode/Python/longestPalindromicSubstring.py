@@ -35,7 +35,6 @@ def longestPalindrome(self, s: str) -> str:
 class Solution(object):
     startIdx = 0
     maxLen = 1
-    startIdx = 0
     def longestPalindrome(self, s):
 
         for i in range(len(s)):
