@@ -16,5 +16,5 @@ def twoSum(self, nums, target):
         if dic.get(lookFor) is not None:
             return [dic.get(lookFor), idx]
         else:
-            dic[lookFor] = idx
+            dic[num] = idx
     return []
