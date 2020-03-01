@@ -26,7 +26,7 @@ def romanToInt(s):
     
     return total
 
-def check(s, idx, values):
+def check(s: str, idx, values: dict):
     if idx != 0:
         if values[s[idx - 1]] < values[s[idx]]:
             return values[s[idx - 1]] * 2
