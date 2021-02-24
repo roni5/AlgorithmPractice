@@ -1,4 +1,4 @@
-namespace LeetCode.C#.SecondRound
+namespace LeetCode.CSharp.SecondRound
 {
     public class TwoSum
     {
