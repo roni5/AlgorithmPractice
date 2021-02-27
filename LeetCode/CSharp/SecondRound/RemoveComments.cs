@@ -44,18 +44,19 @@ namespace LeetCode.CSharp.SecondRound
                             i++;
                             isInCommentBlock = false;
                         }
-                        else
-                        {
-                            if (curr == '/' && next = '/') break;
-                            else if (curr == '/' && next == '*')
-                            {
-                                i++;
-                                isInCommentBlock = true;
-                            }
-                            else
-                                sb.Append(curr);
-                        }
                     }
+                    else
+                    {
+                        if (curr == '/' && next = '/') break;
+                        else if (curr == '/' && next == '*')
+                        {
+                            i++;
+                            isInCommentBlock = true;
+                        }
+                        else
+                            sb.Append(curr);
+                    }
+                
                 }
 
                 if(!isInCommentBlock && sb.Length > 0)
