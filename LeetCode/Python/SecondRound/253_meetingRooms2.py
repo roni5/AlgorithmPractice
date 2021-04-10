@@ -9,7 +9,7 @@ def minMeetingRooms(self, intervals: List[List[int]]) -> int:
     heapq.heapify(rooms)
 
     for interval in intervals[1:]:
-        if interval[1] >= rooms[0]:
+        if interval[0] >= rooms[0]:
             heapq.heappop(rooms)
         heapq.heappush(rooms, interval[1])
 
