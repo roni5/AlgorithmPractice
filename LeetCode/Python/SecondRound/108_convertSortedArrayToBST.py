@@ -10,3 +10,5 @@ def sortedArrayToBST(self, nums: List[int]) -> TreeNode:
     root.right = self.sortedArrayToBST(nums[mid + 1:])
     
     return root
+
+    O(n), O(log N)
