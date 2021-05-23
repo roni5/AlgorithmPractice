@@ -11,4 +11,6 @@ def checkBalance(self, root):
     rightHeight, rightBalanced = self.checkBalance(root.right)
 
     return (max(leftHeight, rightHeight) + 1, leftBalanced and rightBalanced and abs(leftHeight - rightHeight) <= 1)
-    
+
+
+    O(n), O(n)
