@@ -3,7 +3,7 @@ def characterReplacement(self, s: str, k: int) -> int:
 
     maxLen = 0
     start = 0
-    freq = collections.Counter(s)
+    freq = collections.defaultdict(int)
     maxCharCount = 0
 
     for end in range(len(s)):
