@@ -7,24 +7,28 @@
 # Input: "abca"
 # Output: True
 # Explanation: You could delete the character 'c'.
+def validPalindrome(self, s: str) -> bool:
 
-def validPalindrome(s):
-    i = 0
-    j = len(s) - 1
-
-    while i <= j:
-        if s[i] != s[j]:
-            return isPalindrome(s, i + 1, j) or isPalindrome(s, i, j - 1)
-        i += 1
-        j -= 1
+    if not s:
+        return False
     
+    start = 0
+    end = len(s) - 1
+
+    while start <= end:
+        if s[start] != s[end]:
+            return self.isPalindrome(s, start + 1, end) or self.isPalindrome(s, start, end - 1)
+        start += 1
+        end -= 1
+
     return True
 
-def isPalindrome(s, i, j):
-    while i <= j:
-        if s[i] != s[j]:
+def isPalindrome(self, s, start, end):
+    
+    while start <= end:
+        if s[start] != s[end]:
             return False
-        i += 1
-        j -= 1
+        start += 1
+        end -= 1
     
     return True
